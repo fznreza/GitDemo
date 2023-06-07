@@ -62,6 +62,11 @@ public class stepDefination extends Utiliti{
 				+ "    \"place_id\":\""+place_id+"\"\r\n"
 				+ "}");
 	}
-
+	@Given("Delete place payload")
+	public void delete_place_payloa() throws IOException {
+		gv=given().spec(ut.RequestSpecificatio()).body("{\r\n"
+				+ "    \"place_id\":\""+place_id+"\"\r\n"
+				+ "}");
+	}
 
 }

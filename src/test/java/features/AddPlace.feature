@@ -18,5 +18,8 @@ Feature: Add a Place
    Then It should give successful response
    And the response "status" code should be "OK"
    
-   
+   Scenario: Nothing
+   Given No given
+   When No when
+   Then No then only print
    
